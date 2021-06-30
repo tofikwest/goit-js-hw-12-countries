@@ -11,4 +11,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"handlebars/dist/handlebars.runtime":"pAws"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=s(require("./JSON/menu.json")),t=s(require("./templates/menu.hbs"));function s(e){return e&&e.__esModule?e:{default:e}}const c=document.querySelector("ul.js-menu");console.log(c);const n={LIGHT:"light-theme",DARK:"dark-theme"};function o(){const s=e.default.map(t.default).join("");c.innerHTML=s}o();const r=document.querySelector("body"),a=document.querySelector("#theme-switch-toggle");function u(){const e=localStorage.getItem("Theme")||n.LIGHT;r.classList.add(e),e===n.DARK&&(a.checked=!0)}a.addEventListener("change",e=>{const t=e.target.checked?n.DARK:n.LIGHT;r.classList.add(t),r.classList.remove(e.target.checked?n.LIGHT:n.DARK),localStorage.setItem("Theme",t)}),u();
 },{"./sass/main.scss":"clu1","./JSON/menu.json":"iCGt","./templates/menu.hbs":"dgbP"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.cb8913c4.js.map
+//# sourceMappingURL=/goit-js-hw-12-countries/src.b71e20f2.js.map
