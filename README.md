@@ -1,1 +1,1 @@
-# goit-js-hw-12-countries
+# go-it-hw-10
